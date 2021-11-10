@@ -7,17 +7,19 @@
        <title>Kefaet&Shahpar</title>
    </head>
    <body>
-       <?php
-       $a = "Kefaet";
-       //$b = 0;
-       for( $i=0; $i<50;)
-       {
-           $a += "Kefaet";
-           //$b += 5 ;
-       }
-       echo ("At the end of the loop a=$a");
-       // Output:
-       // The loop will Print a=Kefaet on the Screen
-       ?>
+   <?php
+   $a = "Kefaet";
+   for( $i=0; $i<50; $i++)
+   {
+       $a += 1;
+   }
+    
+
+   /*Exercise 1
+
+Create a for loop which will print your name 50 times on the screen. Do the same with while and do while loop. */
+
+  echo "My Name is $a";
+  ?>
    </body>
 </html>
